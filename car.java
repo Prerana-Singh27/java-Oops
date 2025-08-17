@@ -10,19 +10,36 @@ public class car {
 
     int noOfSeats;
 
-    public void drive() {
+    car(String color) {
+        noOfWheels=4;
+        this.color=color;
+        maxSpeed=150;
+        currentFuelInLiters=2;
+        noOfSeats=5;
+    }
+
+    public car start() {
         if (currentFuelInLiters == 0) {
-            System.out.println("Car is out if fuel");
+            System.out.println("Car is out if fuel , can not start");
         } else if (currentFuelInLiters < 5) {
             System.out.println("Car is in reserved mode , please refuel");
-            currentFuelInLiters--;
         } else {
-            System.out.println("Car is driving");
-            currentFuelInLiters--;
+            System.out.println("Car is started...bruhhhh");
         }
+        return this;
+
     }
-    public void addFuel(float fuel) {
-        currentFuelInLiters += fuel;
+
+
+
+    public void drive() {
+            currentFuelInLiters--;
+            System.out.println("Car is driving");
+
+    }
+
+    public void addFuel(float currentFuelInLiters) {
+        this.currentFuelInLiters += currentFuelInLiters;
     }
 
     public float getCurrentFuelInLiters() {
