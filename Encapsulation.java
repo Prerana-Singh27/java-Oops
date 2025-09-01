@@ -9,7 +9,7 @@ public class circle {
     }
 }
 
-
+//rectangle
 package com.example.geometry;
 
 import java.util.Scanner;
