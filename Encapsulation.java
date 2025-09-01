@@ -10,3 +10,17 @@ public class circle {
 }
 
 
+package com.example.geometry;
+
+import java.util.Scanner;
+
+public class rectangle {
+    public int length;
+    public int breadth;
+
+    public rectangle(int length, int breadth) {
+        this.length = length;
+        this.breadth = breadth;
+    }
+}
+
