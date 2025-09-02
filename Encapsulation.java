@@ -24,3 +24,33 @@ public class rectangle {
     }
 }
 
+class BankAccount {
+    private String AccountNumber;
+    private  String AccountHolderName;
+    private double  Balance;
+
+      public BankAccount(String accountHolderName, String accountNumber) {
+
+          this.AccountHolderName = accountHolderName;
+          this.AccountNumber = accountNumber;
+
+      }
+      public void deposit(double amount) {
+          if (amount <= 0) {
+              System.out.println("INVALID DEPOSIT");
+          } else {
+              Balance += amount;
+          }
+      }
+      public double withdraw(double amount) {
+          if (amount <= 0) {
+              System.out.println("invalid withdraw");
+          }else if (Balance >= amount) {
+              Balance -= amount;
+          } else {
+              amount = Balance;
+              Balance = 0;
+          }
+              return amount;
+          }
+      }
