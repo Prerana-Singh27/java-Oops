@@ -22,7 +22,14 @@ public class Magazine extends LibraryItem {
     private String issueNumber;
 }
 
+
 public class Book extends LibraryItem {
   private String iSBN;
 
 }
+
+
+public class DVD extends LibraryItem {
+    private int duration;
+}
+
