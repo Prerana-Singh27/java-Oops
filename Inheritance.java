@@ -21,3 +21,8 @@ public class LibraryItem {
 public class Magazine extends LibraryItem {
     private String issueNumber;
 }
+
+public class Book extends LibraryItem {
+  private String iSBN;
+
+}
