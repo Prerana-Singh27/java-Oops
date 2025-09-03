@@ -1,4 +1,4 @@
-//start base class libraryitem --attributes--method--
+//start base class libraryitem --attributes--method--subclasses
 
 public class LibraryItem {
     private String itemId;
