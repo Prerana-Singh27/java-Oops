@@ -35,3 +35,26 @@ public class DVD extends LibraryItem {
 }
 
 //create Arrayoperation with static nested class statistics...methods like mean() , median()
+
+public class ArrayOperation {
+    private int[] numbers;
+
+    public ArrayOperation(int[] numbers) {
+        this.numbers = numbers;
+    }
+
+    public  class statistics {
+        double mean() {
+            double sum = 0;
+            for(int number : numbers) {
+                sum += number;
+            }
+        return sum / numbers.length;
+        }
+        double median() {
+            return 0;
+
+        }
+    }
+}
+
