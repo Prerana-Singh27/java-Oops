@@ -34,3 +34,4 @@ public class DVD extends LibraryItem {
     private int duration;
 }
 
+//create Arrayoperation with static nested class statistics...methods like mean() , median()
