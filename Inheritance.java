@@ -58,3 +58,15 @@ public class ArrayOperation {
     }
 }
 
+//testArray
+
+public class TestArray {
+
+    public static void main(String[] args) {
+        ArrayOperation opr = new ArrayOperation(new int[] {1,3,5,9});
+        ArrayOperation.statistics statistics = opr.new statistics();
+        System.out.println(statistics.mean());
+    }
+}
+
+
