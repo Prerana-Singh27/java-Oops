@@ -22,6 +22,7 @@ public class Magazine extends LibraryItem {
     private String issueNumber;
 }
 
+//subclasses2
 
 public class Book extends LibraryItem {
   private String iSBN;
