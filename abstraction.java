@@ -40,3 +40,8 @@ public  class Square extends Shape  {
 }
 
 // create interface Flyable--abstract method fly() --abstract class Bird implements flyable---subclass eagle--extends Bird
+
+public interface Flyable {
+     void fly() ;
+}
+
