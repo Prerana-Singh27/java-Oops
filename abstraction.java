@@ -45,3 +45,27 @@ public interface Flyable {
      void fly() ;
 }
 
+public abstract class Bird implements Flyable {
+       private final String bread;
+
+       public Bird(String bread) {
+              this.bread = bread;
+       }
+
+       public String getBread() {
+              return bread;
+       }
+}
+
+public class Eagle extends Bird{
+
+    public Eagle() {
+        super("Eagle");
+    }
+
+    @Override
+    public void fly() {
+        System.out.println("Eagle is flying");
+
+    }
+}
