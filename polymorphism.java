@@ -39,3 +39,13 @@ public class Car extends Vehicle {
         System.out.println("CAR IS GETTING SERVICED...");
     }
 }
+
+public class Tests {
+    public static void main(String[] args) {
+       Car car = new Car();
+       Vehicle veh = new Vehicle();
+       veh.service();
+       car.service();
+    }
+}
+
