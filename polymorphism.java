@@ -23,3 +23,10 @@ public class Calculator {
 
 //class Vehicle ----method service()--subclass Car--override--service()--implementation--calls--super.service()
 
+public class Vehicle {
+
+    public  void service() {
+        System.out.println("VEHICLE IS GETTING SERVICED ");
+
+    }
+}
