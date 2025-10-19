@@ -1,4 +1,4 @@
-//class calculator--multiple add() methods ---add sum 2 integers, 3 integers or two doubles. diff no of parameters ..
+//class calculator--multiple add() methods ---add sum 2 integers, 3 integers or two doubles. diff no of parameters ...
 public class Calculator {
 
     public static int add(int a , int b) {
